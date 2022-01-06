@@ -1,5 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Shizuru', cursive;    
+    font-family: 'Hammersmith One', sans-serif; 
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+.flexiablecontainer{
+    display: flex;
+}
+.half-width{
+    width: 100%;
+    padding: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.mission{
+    color: brown;
+}
+.focused{
+    border-left: 7px solid darkmagenta;
+    padding: 20px;
+}
+.click{
+   text-decoration: none;
+   background-image: linear-gradient(purple, blue);
+   color: white;
+   font-weight: 700px;
+   padding: 20px 50px;
+   border-radius: 7px
+}
+.middletittle{
+    text-align: center;
+    margin-bottom: 50px;   
+}
+.middlesection{
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.bordar-1{
+    background-color: darksalmon;
+    width:  400px;
+    height: 400px;
+    border-radius: 20px;    
+}
+.bordar-2{
+    background-color: lightyellow;
+    width:  400px;
+    height: 400px;
+    border-radius: 20px; 
+}
+.bordar-3{
+    background-color: lightpink;
+    width:  400px;
+    height: 400px;
+    border-radius: 20px; 
+}
+.bordar-1 img{
+    width: 60%;
+}
+.bordar-2 img{
+    width: 60%;
+}
+.bordar-3 img{
+    width: 60%;
+}
+.codedevelop{
+    display: flex;
+}
+.code{
+    margin-left: 6%;
+    
+}
+.develop{
+    margin-top: 5%;
+    margin-left: 6%;
+}
+.code img{
+    width: 450px;
 }
