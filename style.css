@@ -3,13 +3,16 @@
     padding: 0;
 }
 body{
-    font-family: 'Hammersmith One', sans-serif; 
+    font-family: 'Hammersmith One', sans-serif;
 }
 p{
     font-size: 20px;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    margin-top: 8%;
 }
 .flexiablecontainer{
     display: flex;
@@ -19,14 +22,16 @@ h1{
     padding: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 70%;
 }
 .mission{
     color: brown;
 }
 .focused{
-    border-left: 7px solid darkmagenta;
-    padding: 20px;
+    position: absolute;
+}
+.paragraph{
+    margin-top: 20%;
 }
 .click{
    text-decoration: none;
